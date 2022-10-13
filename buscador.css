@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section
+{
+    max-height: 100vh;
+    background: linear-gradient(to bottom, #f1f4f9, 3dff1ff);
+}
+section .color
+{
+    position: absolute;
+    filter: blur(150px);
+}
+section .color:nth-child(1)
+{
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background: #ff359b;
+}
+section .color:nth-child(2)
+{
+    bottom: -150px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: #fffd87;
+}
+section .color:nth-child(3)
+{
+    bottom: 50px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    background: #00d2ff;
+}
+header
+{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 200px;
+    width: 70%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.548);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#input-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    border: rgba(141, 141, 141, 0.562) solid 1px;
+    outline: none;
+    border-radius: 10px;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration 
+{
+    display: none;
+}
+.content-search
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+.content-table
+{
+    width: 65%;
+    max-height: 200px;
+    height: auto;
+    background: rgba(0,0,0,0.3);
+    margin-top: 250px;
+    margin-left: 220px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.content-table table
+{
+    width: 100%;
+}
+
+tbody tr td a
+{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+tbody tr td a:hover
+{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
