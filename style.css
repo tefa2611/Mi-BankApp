@@ -9,6 +9,11 @@
 body
 {
     overflow: hidden;
+    background: #6D76BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 section
 {
@@ -16,35 +21,36 @@ section
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #f1f4f9, 3dff1ff);
+    background: #6D76BB;
+    background: linear-gradient(to bottom, #6D76BB, 3dff1ff);
 }
 section .color
 {
     position: absolute;
-    filter: blur(150px);
+    filter: blur(10px);
 }
 section .color:nth-child(1)
 {
-    top: -350px;
-    width: 600px;
-    height: 600px;
-    background: #ff359b;
+    top: -100px;
+    width: 100%;
+    height: 100%;
+    background: #6D76BB;
 }
 section .color:nth-child(2)
 {
-    bottom: -150px;
+    bottom: 0;
     left: 100px;
-    width: 500px;
-    height: 500px;
-    background: #fffd87;
+    width: 100%;
+    height: 100%;
+    background: #6D76BB;
 }
 section .color:nth-child(3)
 {
-    bottom: 50px;
-    right: 100px;
-    width: 300px;
-    height: 300px;
-    background: #00d2ff;
+    bottom: -10px;
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    background: #6D76BB;
 }
 .box
 {

@@ -8,8 +8,8 @@
 body
 {
     min-height: 100vh;
-    background: rgb(221,246,190);
-    background: linear-gradient(40deg, rgba(221,246,190,0.8743872549019608) 21%, rgba(236,122,176,1) 56%, rgba(136,227,208,1) 100%);
+    background: rgb(109,118,187);
+    background: linear-gradient(40deg, rgba(109,118,187,1) 21%, rgba(109,118,187,1) 100%);
 }
 .contenedor
 {
